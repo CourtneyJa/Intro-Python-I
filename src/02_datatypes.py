@@ -12,10 +12,11 @@ x = 5
 y = "7"
 
 # Write a print statement that combines x + y into the integer value 12
+#7 is an integer, need to use int to access the value of y for the equation
 
-# YOUR CODE HERE
-
+print (x + int(y))
 
 # Write a print statement that combines x + y into the string value 57
+#string is printing the 2 values together
 
-# YOUR CODE HERE
+print (str(x) + y)
