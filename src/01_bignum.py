@@ -2,5 +2,6 @@
 # (try doing the same thing in the JS console and see what it outputs)
 
 # YOUR CODE HERE
-x = 2
-print(x**65536)
+#refactor using bignum
+bignum = 2**65536
+print(bignum)
